@@ -1,0 +1,5 @@
+states1 <- read.csv('~/R/states1.csv',header = TRUE,row.names = 1)
+print(states1)
+print(class(states1))
+print(ncol(states1))
+print(nrow(states1))
